@@ -50,7 +50,7 @@ setup_args = dict(
     packages=setuptools.find_packages(),
     install_requires=[
         "jupyter_server>=1.6,<2",
-        "dataviz>=2.0.0",
+        "dataviz @ git+https://github.com/News-Teller/media-laboratory#egg=dataviz&subdirectory=dataviz",
         "python-crontab~=2.5",
         "papermill~=2.1"
     ],
