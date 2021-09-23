@@ -12,9 +12,7 @@ import os
 import json
 import re
 from notebook.base.handlers import APIHandler
-from notebook.utils import url_path_join
 import tornado
-from tornado.web import StaticFileHandler
 from crontab import CronTab
 
 LOG_BASE_PATH = os.environ.get("JUPYTERLAB_SCHEDULER_LOG_PATH", "/tmp")
