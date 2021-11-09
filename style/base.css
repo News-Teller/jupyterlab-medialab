@@ -1,0 +1,89 @@
+.jp-MediaLabPanel {
+  color: var(--jp-content-font-color1);
+  background: var(--jp-layout-color1);
+}
+
+.jp-MediaLabPanel-sectionIcon {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  height: 32px;
+  margin-right: 12px;
+  width: 32px;
+}
+
+.jp-MediaLabPanel-table {
+  width: 85%;
+  height: 100%;
+  padding-top: var(--jp-private-launcher-top-padding);
+  padding-left: var(--jp-private-launcher-side-padding);
+  padding-right: var(--jp-private-launcher-side-padding);
+  box-sizing: border-box;
+}
+
+.jp-MediaLabPanel-table thead {
+  border-bottom: 1px solid var(--jp-border-color2);
+  font-weight: normal;
+  color: var(--jp-content-font-color2);
+  box-sizing: border-box;
+  text-align: left;
+  margin-left: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.jp-MediaLabPanel-td-short {
+  width: 50%;
+}
+
+.jp-MediaLabPanel-table thead th {
+  font-weight: normal;
+}
+
+.jp-MediaLabPanel-table ul,
+.jp-MediaLabPanel-table li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.jp-MediaLabPanel-table li:not(:first-child) {
+  padding-left: 4px;
+}
+
+.jp-MediaLabPanel-table li:not(:first-child):before {
+  content: '•';
+  padding-right: 4px;
+}
+
+input.jp-mod-styled.is-invalid {
+  border-color: var(--jp-error-color1);
+  border-width: calc(var(--jp-border-width) * 2);
+}
+
+.jp-Dialog-message {
+  color: inherit;
+}
+
+.jp-Dialog-message.is-invalid {
+  color: var(--jp-error-color1);
+}
+
+.jp-MediaLabLog {
+  color: var(--jp-content-font-color1);
+}
+
+.jp-MediaLabLog-sizer {
+  margin-left: 49px;
+  margin-bottom: 0;
+  border-right-width: 50px;
+  min-height: 500px;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.jp-MediaLabLog pre {
+  width: 100%;
+  height: 100%;
+}
